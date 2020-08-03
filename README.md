@@ -1,6 +1,6 @@
 # Myfirstapp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
+Este es mi prima aplicación con Angular(https://github.com/angular/angular-cli) version 10.0.5., Git y Git Hub
 
 ## Development server
 
