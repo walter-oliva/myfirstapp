@@ -1,0 +1,23 @@
+<hello-world></hello-world>
+<div>
+  <form>
+    Nombre:<input type="text" name="name" [(ngModel)]="name"/>
+    <br>
+    Primer Apellido:<input type="text" name="firstLastName" [(ngModel)]="firstLastName"/>
+    <br>
+    Segundo Apellido:<input type="text" name="secontLastName" [(ngModel)]="secondLastName"/>
+    <br>
+    Edad:<input type="text" name="age" [(ngModel)]="age"/>
+    <br>
+    Ciudad:<input type="text" name="city" [(ngModel)]="city"/>
+    <br>
+    Calle:<input type="text" name="street" [(ngModel)]="street"/>
+    <br>
+    <button (click) ="addUser()">
+       Agregar
+    </button>
+    <div *ngFor="let user of listUser">
+      <app-user [user]= 'user'></app-user>
+    </div>
+  </form>
+</div>
