@@ -14,7 +14,7 @@
     Calle:<input type="text" name="street" [(ngModel)]="street"/>
     <br>
     <button (click) ="addUser()">
-       Agregar
+       Agregar Usuario
     </button>
     <div *ngFor="let user of listUser">
       <app-user [user]= 'user'></app-user>
